@@ -1,4 +1,9 @@
 package com.example.SocialNetworkingPlatform.Respositories;
 
-public interface CommentsRespository {
+import com.example.SocialNetworkingPlatform.Models.Comments;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CommentsRespository extends JpaRepository<Comments, Integer> {
 }
