@@ -20,7 +20,7 @@ public class Users {
 
     String userNickName;
 
-    /*
+
     @OneToMany
     @JoinColumn(name = "post_id")
     Posts post;
@@ -36,5 +36,5 @@ public class Users {
     @OneToMany
     @JoinColumn(name = "notification_id")
     Notifications notification;
-*/
+
 }
