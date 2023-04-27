@@ -17,7 +17,7 @@ public class CommentsControllers {
     CommentsService commentsService;
 
     @RequestMapping(value = "getAll", method = RequestMethod.GET)
-    public List<Comments> getAllCustomers() {
+    public List<Comments> getAllComments() {
         return commentsService.getAllComments();
     }
 

@@ -15,9 +15,10 @@ public class Comments {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    int id;
+    int comments_id;
 
+    /*
     @ManyToOne
     @JoinColumn(name = "post_id")
-    Posts post;
+    Posts post;*/
 }
