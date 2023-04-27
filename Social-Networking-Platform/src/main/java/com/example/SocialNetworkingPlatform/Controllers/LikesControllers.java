@@ -1,6 +1,5 @@
 package com.example.SocialNetworkingPlatform.Controllers;
 
-import com.example.SocialNetworkingPlatform.Models.Groups;
 import com.example.SocialNetworkingPlatform.Models.Likes;
 import com.example.SocialNetworkingPlatform.Services.LikesService;
 import org.springframework.beans.factory.annotation.Autowired;
