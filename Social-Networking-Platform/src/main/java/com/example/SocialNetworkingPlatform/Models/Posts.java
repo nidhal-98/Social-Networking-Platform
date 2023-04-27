@@ -17,9 +17,11 @@ public class Posts {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int post_id;
 
-    /*
+    String postType;
+
+
     @ManyToOne
     @JoinColumn(name = "user_id")
     Users user;
-    */
+
 }
