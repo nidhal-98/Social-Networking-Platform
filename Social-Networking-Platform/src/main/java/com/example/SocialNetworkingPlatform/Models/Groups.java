@@ -17,8 +17,9 @@ public class Groups {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int group_id;
 
-    /*
+    String groupName;
+
     @ManyToOne
     @JoinColumn(name = "user_id")
-    Users user;*/
+    Users user;
 }
