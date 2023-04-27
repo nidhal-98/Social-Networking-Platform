@@ -17,8 +17,8 @@ public class Likes {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int like_id;
 
-    /*
+
     @ManyToOne
     @JoinColumn(name = "post_id")
-    Posts post;*/
+    Posts post;
 }
