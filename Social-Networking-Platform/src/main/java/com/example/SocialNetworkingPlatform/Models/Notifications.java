@@ -17,11 +17,11 @@ public class Notifications {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int notification_id;
 
-    /*
+
     @ManyToOne
     @JoinColumn(name = "user_id")
     Users user;
-    */
+
 
     String notificationText;
 }
