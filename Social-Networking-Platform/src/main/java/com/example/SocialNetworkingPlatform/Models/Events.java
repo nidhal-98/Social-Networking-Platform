@@ -15,7 +15,7 @@ public class Events {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    int id;
+    int event_id;
 
     /*
     @ManyToOne
