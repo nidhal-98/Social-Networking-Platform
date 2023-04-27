@@ -18,8 +18,10 @@ public class Followers {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int follower_id;
 
-    /*
+    String nickName;
+
+
     @ManyToOne
     @JoinColumn(name = "user_id")
-    Users user;*/
+    Users user;
 }
