@@ -19,6 +19,7 @@ public class MessagingControllers {
 
     @RequestMapping(value = "getAll", method = RequestMethod.GET)
     public List<Messaging> getAllMessages() {
+
         return messagingService.getAllMessages();
     }
 }

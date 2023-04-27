@@ -15,6 +15,7 @@ public class MessagingService {
     MessagingRespository messagingRespository;
 
     public List<Messaging> getAllMessages() {
+
         return messagingRespository.findAll();
     }
 

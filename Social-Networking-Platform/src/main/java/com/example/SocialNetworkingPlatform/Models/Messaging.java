@@ -28,4 +28,5 @@ public class Messaging {
     */
 
     String messageText;
+
 }
