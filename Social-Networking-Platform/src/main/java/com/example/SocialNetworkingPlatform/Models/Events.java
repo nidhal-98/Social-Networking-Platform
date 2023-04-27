@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Getter
 @Setter
@@ -17,8 +18,12 @@ public class Events {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int event_id;
 
-    /*
+    String eventName;
+
+    Date date;
+
+
     @ManyToOne
     @JoinColumn(name = "user_id")
-    Users user;*/
+    Users user;
 }
